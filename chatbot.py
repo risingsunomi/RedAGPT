@@ -97,6 +97,7 @@ add_bg_from_local(bg_img_path)
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_base = "https://chimeragpt.adventblocks.cc/api/v1"
 
 st.markdown('<h1 style="color: white;">RedTeamAGPT</h1>', unsafe_allow_html=True)
 

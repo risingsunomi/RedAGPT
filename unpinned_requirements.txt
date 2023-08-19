@@ -8,3 +8,5 @@ tiktoken
 redis
 streamlit
 streamlit-chat
+duckduckgo
+langchain_experimental

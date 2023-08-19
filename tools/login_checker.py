@@ -34,7 +34,7 @@ import redis
 
 from langchain.embeddings import OpenAIEmbeddings
 
-from langchain.experimental import AutoGPT
+from langchain_experimental.autonomous_agents import AutoGPT
 from langchain.chat_models import ChatOpenAI
 
 from tools.stream_to_logger import StreamToLogger
